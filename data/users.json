@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Stecu Bucin",
+      "email": "stecu1@steculove.com",
+      "password": "LoveYou1",
+      "role": "admin"
+    },
+    {
+      "name": "Admin Ngabers",
+      "email": "admin_ngab@yeay.com",
+      "password": "NgabMode2",
+      "role": "admin"
+    },
+    {
+      "name": "Mimin Santuy",
+      "email": "mimin@santuy.co.id",
+      "password": "SantuyMax3",
+      "role": "admin"
+    },
+    {
+      "name": "User Receh",
+      "email": "receh@humor.id",
+      "password": "RecehTime1",
+      "role": "user"
+    },
+    {
+      "name": "Si Peminjam",
+      "email": "pinjemdong@book.com",
+      "password": "BukuSaya2",
+      "role": "user"
+    },
+    {
+      "name": "Si Lupa Balikin",
+      "email": "telatlagi@library.net",
+      "password": "AmpunLupa3",
+      "role": "user"
+    },
+    {
+      "name": "Stucu Jr.",
+      "email": "stucu@anakstecu.org",
+      "password": "StucuNext4",
+      "role": "user"
+    },
+    {
+      "name": "Otaku Perpus",
+      "email": "senpai@anime.jp",
+      "password": "Naruto123",
+      "role": "user"
+    },
+    {
+      "name": "Bang Late",
+      "email": "lateboy@waktu.id",
+      "password": "Terlambat5",
+      "role": "user"
+    },
+    {
+      "name": "Buku Hunter",
+      "email": "bukuhunter@read.io",
+      "password": "HunterX6",
+      "role": "user"
+    }
+  ]
+  
