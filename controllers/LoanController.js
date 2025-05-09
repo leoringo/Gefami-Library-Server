@@ -1,4 +1,5 @@
 // const { Op } = require('sequelize')
+const { Op } = require('sequelize')
 const { Loan, Book, User } = require('../models')
 
 class LoanController {
@@ -73,13 +74,18 @@ class LoanController {
 
     static async getLateReturn(req, res, next) {
         try {
-            const today = new Date();
+            const { returnType } = req.body || {}
+
+            const where = {
+                ...(returnType === 'returned'
+                    ? { returnedAt: { [Op.ne]: null } }
+                    : returnType === 'notReturned'
+                        ? { returnedAt: null }
+                        : {})
+            };
 
             const lateLoans = await Loan.findAll({
-                where: {
-                    // dueDate: { [Op.lte]: today },
-                    returnedAt: null
-                },
+                where,
                 attributes: {
                     exclude: ['createdAt', 'updatedAt']
                 },
